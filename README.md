@@ -1,16 +1,18 @@
-# simple_notes_client
+# Simple Notes Client
 
-A new Flutter project.
+A Flutter client application for Simple Notes — a straightforward note-taking app. This project is currently in development.
+
+This app is the frontend client for the [Simple Notes backend](https://github.com/olekslukian/simple-notes-backend).
+
+## About
+
+Simple Notes Client is a cross-platform Flutter application that allows users to create, view, edit, and delete notes. It communicates with the Simple Notes REST API to store and retrieve data.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Ensure you have Flutter installed and the Simple Notes backend running before launching the app.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
